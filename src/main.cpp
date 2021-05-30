@@ -7,5 +7,5 @@ int main()
 	setlocale(LC_ALL, "Rus");
 	Shop s(4, 20, 800, 5, 4);
 	s.Start();
-	system("pause");
+	return 0;
 }
